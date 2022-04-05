@@ -13,8 +13,33 @@
     />
     <link rel="stylesheet" href="css/progress.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
   </head>
+
   <body>
+    <div class="container">
+      <video
+        src="video/gone.mp4"
+        id="video"
+        width="800"
+        height="600"
+      ></video>
+    </br>
+      <div class="controller">
+        <button class="btn play-btn" id="play-btn">
+          <span class="material-icons">play_circle_outline</span>
+        </button>
+        <button class="btn stop-btn" id="stop-btn">
+          <span class="material-icons">stop_circle</span>
+        </button>
+          <input type="range" id="range" class="progress" />
+          <span id="timer">00:00</span>
+      </div>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>

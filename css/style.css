@@ -1,0 +1,32 @@
+body {
+  background: rgb(26, 26, 26);
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  margin: 0;
+}
+
+.container {
+  color: rgb(59, 59, 59);
+  background: rgb(109, 109, 109);
+  margin: 10px auto 0 auto;
+  padding: 5px 5px;
+  width: 800px;
+  border-radius: 4px;
+}
+
+.progress {
+  width: 30%;
+}
+
+.btn {
+  background: none;
+  border: none;
+}
+
+.controller {
+  font-size: 18px;
+  display: inline;
+}
