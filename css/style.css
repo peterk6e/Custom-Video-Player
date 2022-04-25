@@ -10,15 +10,15 @@ body {
 
 .container {
   color: rgb(59, 59, 59);
-  background: rgb(109, 109, 109);
-  margin: 10px auto 0 auto;
-  padding: 5px 5px;
+  background: #bbb;
+  margin: 0 auto 0 auto;
+  padding: 2px 2px;
   width: 800px;
   border-radius: 4px;
 }
 
 .progress {
-  width: 30%;
+  width: 70%;
 }
 
 .btn {
@@ -27,6 +27,7 @@ body {
 }
 
 .controller {
-  font-size: 18px;
+  font-size: 24px;
   display: inline;
+  padding: 12px 7px;
 }
